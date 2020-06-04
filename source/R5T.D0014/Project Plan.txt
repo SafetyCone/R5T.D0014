@@ -1,0 +1,4 @@
+R5T.D0014 - An IStreamSerializer<T> library (async).
+
+Goals
+
