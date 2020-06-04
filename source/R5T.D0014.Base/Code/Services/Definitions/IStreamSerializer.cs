@@ -14,11 +14,11 @@ namespace R5T.D0014
         /// Deserializes an object from a <see cref="Stream"/>.
         /// </summary>
         /// <param name="filePath">The rooted file path to use.</param>
-        Task<T> DeserializeAsync(string filePath);
+        Task<T> DeserializeAsync(Stream stream);
 
         /// <summary>
         /// Serializes an object to a <see cref="Stream"/>.
         /// </summary>
-        Task SerializeAsync(T value);
+        Task SerializeAsync(Stream stream, T value);
     }
 }
