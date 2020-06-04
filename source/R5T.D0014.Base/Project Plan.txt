@@ -1,0 +1,4 @@
+R5T.D0014.Base - A base library for the IStreamSerializer<T> (async) service.
+
+Goals
+
