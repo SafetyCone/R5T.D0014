@@ -2,13 +2,16 @@
 using System.IO;
 using System.Threading.Tasks;
 
+using R5T.T0064;
+
 
 namespace R5T.D0014
 {
     /// <summary>
     /// De/serializes an object of type <typeparamref name="T"/> to a <see cref="Stream"/>.
     /// </summary>
-    public interface IStreamSerializer<T>
+    [ServiceDefinitionMarker]
+    public interface IStreamSerializer<T> : IServiceDefinition
     {
         /// <summary>
         /// Deserializes an object from a <see cref="Stream"/>.
