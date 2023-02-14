@@ -16,7 +16,6 @@ namespace R5T.D0014
         /// <summary>
         /// Deserializes an object from a <see cref="Stream"/>.
         /// </summary>
-        /// <param name="filePath">The rooted file path to use.</param>
         Task<T> DeserializeAsync(Stream stream);
 
         /// <summary>
